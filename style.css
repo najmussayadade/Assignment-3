@@ -156,3 +156,29 @@ p {
         text-align: center;
     }
 }
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .header-content h1 {
+        font-size: 3.0vw;
+        line-height: 118%;
+        text-align: center;
+    }
+    .header-content p {
+        font-size: 1.1vw;
+        line-height: 162%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1201px) and (max-width:1400px) {
+    .header-content h1 {
+        font-size: 3.0vw;
+        line-height: 118%;
+        text-align: center;
+    }
+    .header-content p {
+        font-size: 1vw;
+        line-height: 162%;
+        text-align: center;
+    }
+}
